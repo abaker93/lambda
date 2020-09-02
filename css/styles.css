@@ -1,0 +1,102 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Yeseva One', cursive;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 90px;
+}
+
+h2 {
+	color: #CC9900;
+	font-size: 36px;
+}
+
+.btn {
+	padding: 10px 30px;
+	border-radius: 0;
+}
+
+.decoration { width: 250px; }
+
+header {
+	background-image: url('../img/header-bg.png');
+	background-size: cover;
+	background-position: top;
+}
+
+.navbar {
+	padding-bottom: 50px;
+	font-family: 'Yeseva One', cursive;
+}
+
+.navbar-dark {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+
+.nav-link {
+	padding-right: 30px !important;
+	color: #FFF !important;
+}
+
+.nav-link.nav-social {
+	padding-right: 8px !important;
+	color: #CC9900 !important;
+}
+
+.jumbotron {
+	background: none;
+	padding-bottom: 100px;
+	margin: 0;
+}
+
+.jumbotron img {
+	width: 230px;
+	margin: 0 auto;
+}
+
+.jumbotron .btn.btn-primary {
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid #000000;
+}
+
+.jumbotron .btn.btn-secondary {
+	background-color: rgba(255,255,255,0.3);
+	border: 1px solid #FFFFFF;
+}
+
+.jumbotron .btn.btn-primary:hover, .jumbotron .btn.btn-primary:focus, .jumbotron .btn.btn-primary:active,
+.jumbotron .btn.btn-secondary:hover, .jumbotron .btn.btn-secondary:focus, .jumbotron .btn.btn-secondary:active {
+	background-color: rgba(204, 153, 0, 0.7);
+	border-color: #CC9900;
+}
+
+section#about {
+	box-shadow: inset 0 0 50px rgba(0,0,0,0.15);
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background-image: url('../img/about-bg.png');
+	background-size: cover;
+	padding: 100px 0;
+}
+
+section#ingredients {
+	background-image: url('../img/ingredients-bg.png');
+	background-size: cover;
+	background-position: top;
+}
+
+section#ingredients .col-sm-6 {
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #FFFFFF;
+}
+
+section#ingredients .col-sm-6 h2 { color: #FFFFFF; }
